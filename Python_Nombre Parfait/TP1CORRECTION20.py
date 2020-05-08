@@ -8,17 +8,17 @@ def parfait(n):
             somme = somme + i
     return n == somme
     
-# Remarque : on parcourt les entiers de n/2 Ã  1, en dÃ©crÃ©mentant
-# i Ã  chaque itÃ©ration
-# range(dÃ©but,fin,pas) parcours de debut Ã  fin
-# en ajoutant pas (-1) Ã  chaque itÃ©ration
+# Remarque : on parcourt les entiers de n/2 Ã  1, en decrementant
+# i Ã  chaque iteration
+# range(debut,fin,pas) parcours de debut Ã  fin
+# en ajoutant pas (-1) Ã  chaque iteration
 # ce n'est pas la peine de parcourir de 1 Ã  n, 1 Ã  n/2 suffit
 # n % i donne le reste de la division de n par i
-# return n == somme : la valeur retournÃ©e est un boolÃ©en rÃ©sultat
+# return n == somme : la valeur retournee est un boolean resultat
 # de la comparaison entre n et somme
 # somme, i et n sont des variables locales
 
-# nombres parfaits infÃ©rieurs Ã  n
+# nombres parfaits inferieurs Ã  n
 # plusieurs versions
 
 import sys
